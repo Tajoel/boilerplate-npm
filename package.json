@@ -1,12 +1,14 @@
 {
 	"name": "fcc-learn-npm-package-json",
 	"author": "Joel",
+	"description": "Test-project",
 	"dependencies": {
 		"express": "^4.14.0"
 	},
 	"main": "server.js",
 	"scripts": {
-		"start": "node server.js"
+		"start": "node server.js",
+		"watch": "node --watch server.js"
 	},
 	"repository": {
 		"type": "git",
